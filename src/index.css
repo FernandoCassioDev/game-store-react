@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Arquivo: colors.css */
+
+/* Cyberpunk Theme */
+:root {
+  --cyberpunk-bg: #1A1A1A;
+  --cyberpunk-primary: #8B00FF;
+  --cyberpunk-secondary: #00FFFF;
+  --cyberpunk-accent: #FF007F;
+  --cyberpunk-accent2: #39FF14;
+  --cyberpunk-text: #FFFFFF;
+}
+
+/* Retro Wave Theme */
+:root {
+  --retrowave-bg: #000000;
+  --retrowave-primary: #4169E1;
+  --retrowave-secondary: #FF69B4;
+  --retrowave-accent: #FFD700;
+  --retrowave-accent2: #FFA500;
+  --retrowave-text: #FFFFFF;
+}
+
+/* Modern Minimalist Theme */
+:root {
+  --modern-bg: #FFFFFF;
+  --modern-secondary-bg: #333333;
+  --modern-primary: #00BFFF;
+  --modern-secondary: #000000;
+  --modern-accent: #FF4500;
+  --modern-accent2: #32CD32;
+  --modern-text: #333333;
+}
+
